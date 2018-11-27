@@ -1,0 +1,4 @@
+Name: compareAreas
+Description: Opens a Shiny Gadget to compare areas
+Binding: compareAreas
+Interactive: true

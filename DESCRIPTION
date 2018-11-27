@@ -1,9 +1,18 @@
 Package: compareAreas
-Title: What the Package Does (one line, title case)
+Title: A Shiny Gadget to compare areas across different polygons
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("David", "Ranzolin", email = "daranzolin@gmail.com", role = c("aut", "cre"))
+Description: What's larger -- 2000 square feet or 1800 square meters? And how large is that really? Get a handle on spatial areas.
 Depends: R (>= 3.4.1)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    shiny,
+    miniUI,
+    dplyr,
+    leaflet,
+    sf,
+    mapview,
+    magrittr
+RoxygenNote: 6.0.1
