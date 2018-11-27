@@ -10,4 +10,4 @@ devtools::install_github("daranzolin/compareAreas")
 
 ***
 
-![compareAreas](inst/compareAreas.png)
+![compareAreas](inst/ca-gif.gif)
