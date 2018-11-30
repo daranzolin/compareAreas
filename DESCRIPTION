@@ -7,12 +7,13 @@ Depends: R (>= 3.4.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: 
+Imports:
     shiny,
     miniUI,
     dplyr,
     leaflet,
     sf,
     mapview,
-    magrittr
+    magrittr,
+    measurements
 RoxygenNote: 6.0.1
